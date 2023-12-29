@@ -1,0 +1,107 @@
+.flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container {
+    padding: 0 15px;
+    min-height: 100vh;
+    justify-content: center;
+    background: whitesmoke;
+  }
+  
+  .facebook-page {
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  .facebook-page .text {
+    margin-bottom: 150px;
+  }
+  
+  .facebook-page h1 {
+    color: blue;
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+  
+  .facebook-page a {
+    font-size: 1.75rem;
+    white-space: nowrap;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  form input {
+    height: 55px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    padding: 0 14px;
+  }
+  
+  form input:focus {
+    outline: none;
+    border-color: #1877f2;
+  }
+  .link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .link .login {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #1877f2;
+    padding: 15px 0;
+    color:white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+  }
+  
+  .link .login:hover {
+    background: blue;
+  }
+  
+  form a {
+    text-decoration: none;
+  }
+  
+  .link .forgot {
+    color: blue;
+    font-size: 0.875rem;
+  }
+   hr {
+    border: none;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .button {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .button a {
+    padding: 15px 20px;
+    background:green;
+    color: white;
+    font-size: 1.063rem;
+    font-weight: 600;
+  }
+  
